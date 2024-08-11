@@ -1,0 +1,50 @@
+<html>
+    <head><link rel="stylesheet" type="text/css" href="css/style.css"> </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="css/image/logo.png"/>
+                    <h1>Staff Scheduling</h1>
+                </div>
+                <div class="navbar">
+                    <a href="findex.php" class="profile" >Profile</a>
+                    <!-- <a href="Attandance" class="attandance" >Attandance</a> -->
+                    <a href="fassignment.php" class="assignment" >Assignment</a>
+                    <!-- <a href="uploadmidmarks.php" >Mid-marks</a> -->
+                    <div class="dropdown">
+                      <button class="dropbtn">Mid-sem
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="uploadmidmarks.php" >Upload Mid-marks</a>
+                        <a href="studentstatus.php" >Student Status</a>
+                        
+                      </div>
+                    </div>
+                    <div class="dropdown">
+                      <button class="dropbtn">Time Table 
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="UploadStudenttimetable.php" >Student</a>
+                        <a href="UploadFacultytimetable.php" >Faculty</a>
+                        <!-- <a href="timetablestudent.php" >Student Time Table</a> -->
+                        <!-- <a href="timetablefaculty.php" >Faculty Time Table</a>  -->
+                      </div>
+                    </div> 
+                  </div>
+                <div class="logout">
+                  <button name="logout1" onclick="fun1()"><img src="css/image/person.png"/></button>
+                </div>
+            </div>
+
+        </header>
+        <script>
+          function fun1(){
+         window.location.href="logout.php";
+         }
+     </script>
+    </body>
+</html>
+

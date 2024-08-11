@@ -1,0 +1,30 @@
+
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="css/loginstyle.css">
+    </head>
+    <body>
+        <div class="centerform">
+        <form  action="login.php" method="POST" >
+            <label class="elements">E-mail or Phone no.:</label><br>
+            <input name="email" class="elements"/><br>
+            <label class="elements">Password:</label><br>
+            <input type="password" name="password" class="elements"/><br>
+            <label class="elements">Role:</label><br>
+            <select class="elements" name="role">
+                <option class="f1"  >Select</option>
+                <option class="f1" value="1">Faculty</option>
+                <option class="f1" value="0">Student</option>
+                </select><br>
+           
+                <button class="signinbutton" name="btnlogin"  >Sign In</button><br>
+                
+           
+            <a href="registration.php" class="elements">New account?Registration</a><br>
+        </form>
+       
+        </div>
+     
+    </body>
+</html>
