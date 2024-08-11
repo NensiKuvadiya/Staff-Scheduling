@@ -1,0 +1,31 @@
+  /* timetable_style */
+  .centerform{
+    padding: 40px 0px 0px 220px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin: 150px 250px;
+    height: 100%;
+}
+.signinbutton{
+    font-size: 15px;
+    border: 2px solid rgb(75, 7, 147);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.elements{
+    font-size: 19px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.signinbutton:hover{
+    color: white;
+    background-color: rgb(75, 7, 147);
+
+}
+.con1{
+    height: 100%;
+}

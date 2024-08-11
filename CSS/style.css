@@ -1,0 +1,111 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 10px;
+    background-color: rgb(75, 7, 147);
+}
+.links a{
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+
+}
+.links{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+}
+.logo h1{
+    color:white;
+    padding-left: 20px;
+    
+}
+.logo img{
+        height: 70px;
+        width: 70px;
+        border-radius: 35px;
+        padding-top: 5px;
+     
+}
+.logout{
+    display: flex;
+}
+.logout img{
+    height: 70px;
+    width: 70px;
+    padding-right: 20px;
+} 
+.logout button{
+  background-color: rgb(75, 7, 147) ;
+  border:none;
+  
+}
+
+/* DROPE DOWWN FOR FACULTY TIMETABLE */
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(75, 7, 147);
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  
+  .navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .dropdown .dropbtn {
+    font-size: 25px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  
+   .dropdown:hover .dropbtn {
+    background-color: white;
+    color:  rgb(75, 7, 147);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px  rgb(75, 7, 147);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(75, 7, 147);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

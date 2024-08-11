@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-image: url("image/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+.heading{
+color: rgb(75, 7, 147);
+}  
+
+form {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+ 
+    
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 15px;
+}
+input[type="radio"] {
+    margin-right: 10px;
+}
+input[type="submit"],
+input[type="reset"] {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid rgb(75, 7, 147);
+
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    color: white;
+    background-color: rgb(75, 7, 147);
+}
